@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ec2d4538-47f2-4a70-80e6-2a788b38c9ea" name="gitlab">
+        <fileTransfer accessType="SFTP" host="gitlab.com:test4871741/Test.git" port="22" sshConfigId="115a1173-e466-4d50-bc4e-b634870ab67e" sshConfig="mrlady525@gitlab.com:test4871741/Test.git:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
