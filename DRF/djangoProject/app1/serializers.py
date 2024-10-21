@@ -42,7 +42,7 @@ class UserInfoSerializer(serializers.ModelSerializer):  ##模型序列化器包�
 
     def validate_pwd(self,value):
         ##自定义的字段校验器
-        if 6<len(value)<18:
+        if not(6<len(value)<18):
             raise serializers.ValidationError('密码长度需要在6-18位之间')
 
 class AddrSerializer(serializers.ModelSerializer):
