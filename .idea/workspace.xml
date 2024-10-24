@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1629ecc-6a35-4352-8091-450278a520ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DRF/djangoProject/app2/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DRF/djangoProject/app2/views2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRF/djangoProject/app1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/djangoProject/app1/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DRF/djangoProject/app1/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/djangoProject/app1/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRF/djangoProject/app1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/djangoProject/app1/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DRF/djangoProject/app1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/djangoProject/app1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRF/djangoProject/app2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/djangoProject/app2/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DRF/djangoProject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/djangoProject/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DRF/djangoProject/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/djangoProject/djangoProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DRF/djangoProject/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/djangoProject/djangoProject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +24,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="django" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitLabMergeRequestFiltersHistory">{
@@ -60,25 +62,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.views.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/django/DRF/djangoProject/app2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.views.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Django/DRF/djangoProject/app2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Django" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Django" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Django\DRF\djangoProject\app2" />
       <recent name="D:\django\DRF\djangoProject\app2" />
     </key>
   </component>
@@ -140,6 +151,9 @@
       <workItem from="1729062627248" duration="1340000" />
       <workItem from="1729063997658" duration="3046000" />
       <workItem from="1729522680083" duration="4920000" />
+      <workItem from="1729561989339" duration="7782000" />
+      <workItem from="1729657128797" duration="597000" />
+      <workItem from="1729743399210" duration="4724000" />
     </task>
     <task id="LOCAL-00001" summary="提交代码">
       <option name="closed" value="true" />
@@ -198,7 +212,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="django" />
+                        <option value="DRF/main" />
                       </list>
                     </value>
                   </entry>
@@ -215,16 +229,6 @@
     <MESSAGE value="Initial commit&#10;# Conflicts:&#10;#&#9;README.md&#10;" />
     <MESSAGE value="Initial commit&#10;# Conflicts:&#10;#&#9;README.md" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;# Conflicts:&#10;#&#9;README.md" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/DRF/djangoProject/app2/urls.py</url>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/django$views.coverage" NAME="views Coverage Results" MODIFIED="1729524872901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DRF/djangoProject/app2" />
